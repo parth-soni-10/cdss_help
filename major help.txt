@@ -1,0 +1,25 @@
+1a. counts number of char and etc -- 1text file 
+1b. count number of indentifiers 
+2a. count number of comments and eliminating comments and copying in a seperate file -- 2 file
+2b. compute whether a statement is simple or compute 
+3a. fraction and integers - 1 file - ./a.out in.txt
+3b. read scanf and readf and replace them - 2 .c files 
+
+lex and yacc
+
+4. arithmetic operations
+5. valid identifier
+6. valid string(pattern)
+
+c programs 
+
+7. pass 1 [input file and optab txt file +++++ symtab txt file	out.txt]
+8. absolute laoder (8_src.txt for input)
+9. first in the cfg 
+10. shift reduce 
+11. code optimization (a-for loop,b-recursion,c-do while)
+
+lex fn.l
+yacc -d fn.y // only for 4,5,6
+cc lex.yy.c y.tab.c -lfl
+./a.out
